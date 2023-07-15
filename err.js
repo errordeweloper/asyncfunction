@@ -18,6 +18,9 @@ file
     .catch((e)=>{
         console.log(e);
     }) 
+    .finally(()=>{
+        console.log('tamom');
+    })
 
  
 async function asyncCall() {
